@@ -9,22 +9,7 @@ The scraper, given a root URL, will find all links that fulfil the first filter.
 The images will then be downloaded, and saved on separate folder based from its page URL.
 
 <code>
-Root URL (provided by user)<br>
-&nbsp;&nbsp;&nbsp;|<br>
-&nbsp;&nbsp;&nbsp;| first filter (URL filter, provided by user)<br>
-&nbsp;&nbsp;&nbsp;|<br>
-&nbsp;&nbsp;&nbsp;V<br>
-&nbsp;Page links<br>
-&nbsp;&nbsp;&nbsp;|<br>
-&nbsp;&nbsp;&nbsp;| second filter (filename filter,provided by user)<br>
-&nbsp;&nbsp;&nbsp;|<br>
-&nbsp;&nbsp;&nbsp;V<br>
-&nbsp;Image links<br>
-&nbsp;&nbsp;&nbsp;|<br>
-&nbsp;&nbsp;&nbsp;| download process<br>
-&nbsp;&nbsp;&nbsp;|<br>
-&nbsp;&nbsp;&nbsp;V<br>
-&nbsp;Downloaded images on each folder
+Root URL (provided by user) -(first filter)-> Page URL list -(filename filter)-> image URLs -> Downloaded images
 </code>
 
 ## Possible uses
