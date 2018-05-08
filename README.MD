@@ -34,3 +34,7 @@ Here are some possible use case that require two level of URL filtering and scra
 * BeautifulSoup 4
 
 * virtualenv
+
+## TODO
+
+* Proper test suite
